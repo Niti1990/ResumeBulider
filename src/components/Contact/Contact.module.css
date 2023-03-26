@@ -1,0 +1,95 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* * {
+	box-sizing: border-box;
+} */
+
+.mainContainer {
+	display: flex;
+	background-color: white;
+	margin-left: 150px;
+	margin-right: 150px;
+	/* border: 2px solid black; */
+	margin-top: 0px;
+}
+.card1 {
+	/* border: 2px solid red; */
+	margin-left: 30px;
+
+	height: 300px;
+	width: 300px;
+}
+
+.contact1 {
+	margin-top: 0px;
+	height: 200px;
+	margin-left: 20px;
+}
+.contact2 {
+	margin-top: 0px;
+	/* border: 2px solid black; */
+}
+
+input[type='text'],
+select,
+textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	/* box-sizing: border-box; */
+	margin-top: 6px;
+	margin-bottom: 16px;
+	/* resize: vertical; */
+}
+
+input[type='submit'] {
+	background-color: lightblue;
+	color: white;
+	padding: 22px 200px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+
+	width: 10px;
+}
+
+input[type='submit']:hover {
+	background-color: rgb(33, 107, 147);
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-right: 30px;
+}
+.heading {
+	margin-left: 0px;
+}
+p {
+	margin-top: 70px;
+	font-size: xx-large, bold;
+}
+form {
+	margin-left: 450px;
+	margin-right: 250px;
+	margin-top: 80px;
+	/* border: 2px solid black; */
+}
+
+@media (max-width: 768px) {
+	.mainContainer,
+	.card1,
+	.card2,
+	.contact1,
+	.contact2,
+	input,
+	.container,
+	.heading,
+	p,
+	form {
+		font-size: 12px;
+	}
+}

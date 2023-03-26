@@ -1,0 +1,21 @@
+footer {
+	padding: 3px;
+	background-color: #333;
+	color: white;
+	margin-top: 20px;
+	height: 110px;
+}
+.container p {
+	margin-top: 30px;
+}
+@media (max-width: 768px) {
+	.footer,
+	.container,
+	p {
+		font-size: 14px;
+	}
+	.footer,
+	.container {
+		flex-direction: column;
+	}
+}
