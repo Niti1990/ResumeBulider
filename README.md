@@ -52,3 +52,6 @@ sections = {
       sectionTitle: sections.other,
       detail: "",
     },
+    
+    
+    //deploy:-https://resume-bulider-azure.vercel.app/
